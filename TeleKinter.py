@@ -22,11 +22,7 @@ def send():
         message = str(entry.get('1.0',tk.END))
         bot.send_message(user_id, message)
     except:
-        messagebox.showinfo('error', "Error, please check the entered data", icon = 'error', type = 'ok')
-
-    print(TOKEN)
-    print(user_id)
-    print(message)
+        messagebox.showinfo('error', "Error, please check the entered data", icon = 'error', type = 'ok')
 
 entry = tk.Text(height = 7,
                 width = 50)

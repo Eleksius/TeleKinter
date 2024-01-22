@@ -1,5 +1,4 @@
 import tkinter as tk
-from telebot import TeleBot
 from telebot import *
 from tkinter import messagebox
 from idlelib.tooltip import Hovertip
